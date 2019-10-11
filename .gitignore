@@ -1,0 +1,4 @@
+/ts-tsc-webpack-demo/node_modules
+/ts-tsc-amd-demo/js_amd
+/ts-tsc-webpack-demo/js_webpack
+/ts-tsc-namespace-demo/js_tsc

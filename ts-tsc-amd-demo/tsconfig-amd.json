@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+     "baseUrl": "./ts",
+     "outDir": "./js_amd",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

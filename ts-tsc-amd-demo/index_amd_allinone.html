@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>test</title>
+	<script data-main="./js_amd/allinone.js" src="require.js"></script>
+	<script>
+	require(["main","./User"],function(m,u){
+		m.main() 
+		var u=new u.User("test",36)
+		u.showAge()
+	})
+	</script>
+</head>
+<body> 
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+	"name": "demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": { 
+		"dev": "webpack --config webpack.dev.js",
+		"prod": "webpack --config webpack.prod.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"awesome-typescript-loader": "^5.2.1",
+		"html-webpack-plugin": "^3.2.0",
+		"ts-loader": "^6.2.0",
+		"typescript": "^3.6.4",
+		"webpack": "^4.41.0",
+		"webpack-cli": "^3.3.9",
+		"webpack-merge": "^4.2.2"
+	}
+}
