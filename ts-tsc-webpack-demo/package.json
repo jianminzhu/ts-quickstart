@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"scripts": { 
+	"scripts": {
 		"dev": "webpack --config webpack.dev.js",
 		"prod": "webpack --config webpack.prod.js"
 	},
@@ -18,5 +18,8 @@
 		"webpack": "^4.41.0",
 		"webpack-cli": "^3.3.9",
 		"webpack-merge": "^4.2.2"
+	},
+	"dependencies": {
+		"decimal.js": "^10.2.0"
 	}
 }
