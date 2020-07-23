@@ -2,3 +2,5 @@
 /ts-tsc-amd-demo/js_amd
 /ts-tsc-webpack-demo/js_webpack
 /ts-tsc-namespace-demo/js_tsc
+/ts-tsc-webpack-demo/html/js_wp/
+/.idea/
