@@ -1,14 +1,13 @@
 ﻿// webpack.common.js 公用的配置文件
 
 const path = require('path');
-
 module.exports = { 
     entry: {
         index: "./ts/main.ts",
         test: "./ts/test.ts"
     },
     output: {
-        path: path.resolve(__dirname, 'html/js_wp'),
+        path: path.resolve(__dirname, 'html/js_wp'),  
         filename: "[name].bundle.js",
         chunkFilename: "[name].chunk.js"
     },
