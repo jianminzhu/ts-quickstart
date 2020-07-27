@@ -1,1 +1,1 @@
-webpack --config webpack.prod.js
+webpack --watch --config webpack.prod.js

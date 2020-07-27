@@ -1,1 +1,1 @@
-webpack --config webpack.dev.js
+webpack --watch --config webpack.dev.js

@@ -3,11 +3,11 @@
 const path = require('path');
 module.exports = { 
     entry: {
-        index: "./ts/main.ts",
-        test: "./ts/test.ts"
+        index: "./src/main.ts",
+        test: "./src/test.ts"
     },
     output: {
-        path: path.resolve(__dirname, 'html/js_wp'),  
+        path: path.resolve(__dirname, 'public/js_wp'),  
         filename: "[name].bundle.js",
         chunkFilename: "[name].chunk.js"
     },
